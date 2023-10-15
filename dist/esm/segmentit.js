@@ -496,7 +496,7 @@ function () {
 
         if (sret.length > 0) ret = ret.concat(sret);
         if (options.keepLine) {
-          ret.push('\r\n')
+          ret.push({w: '\r\n', p: 2048})
         }
       }); // 去除标点符号
 
