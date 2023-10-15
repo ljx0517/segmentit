@@ -20,9 +20,9 @@
     "nodejs",
     "分词"
   ],
-  "homepage": "https://github.com/linonetwo/segmentit#readme",
+  "homepage": "https://github.com/ljx0517/segmentit#readme",
   "bugs": {
-    "url": "https://github.com/linonetwo/segmentit/issues"
+    "url": "https://github.com/ljx0517/segmentit/issues"
   },
   "scripts": {
     "clean": "rimraf dist & rimraf build & rimraf coverage",
@@ -55,7 +55,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/linonetwo/segmentit.git"
+    "url": "git://github.com/ljx0517/segmentit.git"
   },
   "browserslist": "> 0.25%, not dead",
   "jest": {
