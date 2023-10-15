@@ -200,6 +200,9 @@ export default class Segment {
         // ======================================
         // 连接分词结果
         if (sret.length > 0) ret = ret.concat(sret);
+        if (options.keepLine) {
+          ret.push({w: '\r\n', p: 2048})
+        }
       });
 
     // 去除标点符号
